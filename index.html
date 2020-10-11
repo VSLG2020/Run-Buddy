@@ -52,8 +52,37 @@
     <!--hero/jumbotron-->
     
     <section>
-        <h1>Run Buddy</h1>
-    </section>
+        <div>
+            <h3> Get Started Today</h3>
+            <p> Fill out this form and one of our trainers will schedule a consult</p>
+    <!--Add Form element-->
+   <form>
+        <label for="name">Enter Full Name:</label>
+        <input type="text" placeholder="Your Name" name="name" id="name"/>
+        <label for="email">Enter Email Address</label>
+        <input for="email" placeholder="Email Address" name="email" id="emial"/>
+        <label for="phone">Enter a Telephone Number:</label>
+        <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
+  <p>
+    Have you worked out with a trainer before?
+        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+        <label for="trainer-yes"> Yes</label>
+        <input type="radio" name="trainer-confirm" id="trainer-no" />
+        <label for="trainer-no">No</label>
+</p>
+<p>
+    <label for="checkbox" >
+        I acknowledge that I am at least 18 years of age.
+    </label>
+    <input type="checkbox" name="age-confirm" id="checkbox" />
+</p>
+<button type="submit">
+    Get Running!
+</button>
+    </form>
+        </div>
+ </section>
+ <!--End Hero-->
  
     <!--"what we do" section-->
    <section>
@@ -74,10 +103,15 @@
    <section>
         <h2>Reach Out </h2>
     </section>
+    
 
        <!-- Footer -->
     <footer>
         <h2> ❤️ Made with love by Run Buddy.</h2>
+        <div>
+            <a href="#">Read Our Privacy</a><br>
+            &copy; 2019 Run Buddy, Inc.
+        </div>
      </footer>
 
     </body>
